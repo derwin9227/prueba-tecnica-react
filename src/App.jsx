@@ -5,7 +5,6 @@ function App() {
   return (
       <section className='container'>
         <div className='container-api'>
-          <h2>RandomUser</h2>
           <Count />
           <span className='sectionSpace'/>
           <Find />

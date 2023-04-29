@@ -22,7 +22,7 @@ const apiRequest = async () => {
   },[age]);
 
   return (
-    <section className='find'>
+    <section className='find' id='age'>
       <h2>Fetch and Find user by Age</h2>
       <div className='buscar'>
         <input type="number" 

@@ -19,7 +19,7 @@ const Order = () => {
   },[]);
 
   return (
-    <section className='order'>
+    <section className='order' id='order'>
       <h2>Fetch and Order 10 users</h2>
       <ol className='userList'>
         {

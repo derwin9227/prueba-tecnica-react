@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.navbar .navbar-list{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    margin: auto;
+}
+.navbar .navbar-list .navbar-list-item{
+    display: flex;
+    list-style: none;
+    border-radius: 25px;
+    border-bottom: 1px solid #232323;
+    padding: 0 3px 7px 3px;
+
+}
+.navbar .navbar-list .navbar-list-item a{
+    text-decoration: none;
+    color: rgba(50,50,50,1);
+}
+.navbar .navbar-list .navbar-list-item:hover{
+    transform: translateY(1px);
+    cursor: pointer;
+}

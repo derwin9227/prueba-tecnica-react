@@ -21,7 +21,7 @@ const Count = () => {
   },[]);
 
   return (
-    <section className='count'>
+    <section className='count' id="count">
       <h2>Fetch and Count 5 users most repeat char in names</h2>
         <ol className='count-list'>
         {

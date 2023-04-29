@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fastestship = () => {
   return (
-    <section>
+    <section id='fast'>
       <h2>Fastestship</h2>
     </section>
   )

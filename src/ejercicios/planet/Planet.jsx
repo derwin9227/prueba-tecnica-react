@@ -22,7 +22,7 @@ const Planet = () => {
   },[])
 
   return (
-    <section className='planet'>
+    <section className='planet' id='planet'>
       <h2>Search a planet by Terrain</h2>
       <div className="planet-list">
         <ol>
