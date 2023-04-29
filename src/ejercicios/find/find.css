@@ -1,0 +1,10 @@
+.find{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.buscar{
+    display: flex;
+    gap: .5rem;
+    flex: 1;
+}

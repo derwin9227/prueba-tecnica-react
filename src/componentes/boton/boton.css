@@ -1,0 +1,10 @@
+.boton{
+    background-color: #232323;
+    color: #a0a0a0;
+    border: none;
+    border-radius: 5px;
+    padding: .3rem 1rem;
+}
+.boton:active{
+    transform: translateY(1px);
+}
